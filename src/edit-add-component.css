@@ -1,0 +1,8 @@
+.layoutContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: start;
+    align-content: start;
+    justify-items: center;
+    grid-row-gap: 20px;
+}
