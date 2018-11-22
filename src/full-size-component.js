@@ -16,8 +16,8 @@ export default class FullSizeComponent extends Component {
 }
 
 FullSizeComponent.propTypes= {
-    onClick: PropTypes.func,
-    url: PropTypes.string,
-    title: PropTypes.string,
-    description: PropTypes.string
+    onClick: PropTypes.func.isRequired,
+    url: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired
 }
