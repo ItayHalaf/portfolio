@@ -23,7 +23,7 @@ export default class SideBar extends Component {
     }
 }
 SideBar.propTypes = {
-    changeToAdd: PropTypes.func,
-    changeToProptflio: PropTypes.func,
-    changeToAbout: PropTypes.func
+    changeToAdd: PropTypes.func.isRequired,
+    changeToProptflio: PropTypes.func.isRequired,
+    changeToAbout: PropTypes.func.isRequired
 };
