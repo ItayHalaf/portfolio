@@ -14,8 +14,8 @@ export default class MainContent extends Component {
 }
 
 MainContent.propTypes = {
-    changeToEdit: PropTypes.func,
-    data: PropTypes.array,
-    onDelete: PropTypes.func,
-    onClick: PropTypes.func,
+    changeToEdit: PropTypes.func.isRequired,
+    data: PropTypes.array.isRequired,
+    onDelete: PropTypes.func.isRequired,
+    onClick: PropTypes.func.isRequired,
 }
