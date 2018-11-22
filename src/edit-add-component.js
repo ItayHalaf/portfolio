@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./edit-add-component.css"
 import PropTypes from 'prop-types';
 
-export default class EditComponent extends Component {
+export default class EditAddComponent extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -65,7 +65,7 @@ export default class EditComponent extends Component {
   }
 }
 
-EditComponent.propTypes = {
+EditAddComponent.propTypes = {
   action: PropTypes.func.isRequired,
   isUpdate: PropTypes.bool.isRequired,
   getItemInfo: PropTypes.func.isRequired
