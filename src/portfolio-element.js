@@ -18,11 +18,11 @@ export default class PortfolioElement extends Component {
 }
 
 PortfolioElement.propTypes = {
-    onClick: PropTypes.func,
-    changeToEdit: PropTypes.func,
-    onDelete: PropTypes.func,
-    url: PropTypes.string,
-    title: PropTypes.string,
-    description: PropTypes.string,
-    id: PropTypes.string
+    onClick: PropTypes.func.isRequired,
+    changeToEdit: PropTypes.func.isRequired,
+    onDelete: PropTypes.func.isRequired,
+    url: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    description: PropTypes.string.isRequired,
+    id: PropTypes.string.isRequired
 }
