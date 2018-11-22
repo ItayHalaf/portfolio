@@ -66,7 +66,7 @@ export default class EditComponent extends Component {
 }
 
 EditComponent.propTypes = {
-  action: PropTypes.func,
-  isUpdate: PropTypes.bool,
-  getItemInfo: PropTypes.func
+  action: PropTypes.func.isRequired,
+  isUpdate: PropTypes.bool.isRequired,
+  getItemInfo: PropTypes.func.isRequired
 }
